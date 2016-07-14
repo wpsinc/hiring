@@ -176,42 +176,42 @@
     $candidate = __YOU__;
 
     $things_we_love =
-    [
-    'human readable code and variables',
-    'quick learners',
-    'easy to understand code',
-    'inquisitive minds',
-    'laravel',
-    'laracasts',
-    'docker',
-    "convention followers",
-    'AWS',
-    'experience',
-    'API skills',
-    'personality. If we are going to sit with you every day, we do not want to dread coming to work',
-    'sourcetree',
-    'humility/teachability ... it is a must, even with experience. check the marvelous ego at the door',
-    'circleCI',
-    'ambition!',
-    'command line',
-    'sense of humor, no fear of fun, or work',
-    'stackoverflow.com'
-    ];
+        [
+            'human readable code and variables',
+            'quick learners',
+            'easy to understand code',
+            'inquisitive minds',
+            'laravel',
+            'laracasts',
+            'docker',
+            "convention followers",
+            'AWS',
+            'experience',
+            'API skills',
+            'personality. If we are going to sit with you every day, we do not want to dread coming to work',
+            'sourcetree',
+            'humility/teachability ... it is a must, even with experience. check the marvelous ego at the door',
+            'circleCI',
+            'ambition!',
+            'command line',
+            'sense of humor, no fear of fun, or work',
+            'stackoverflow.com'
+        ];
 
     $bonus_points = 0;
 
-    foreach($things_we_love as $attributes)
-    {
-    $attribute = $candidate->$attributes;
+        foreach($things_we_love as $attributes)
+        {
+            $attribute = $candidate->$attributes;
 
-    if (property_exists($attribute) && $attribute == true)
-    {
-    $bonus_points++;
-    }
-    else
-    {
-    //do nothing
-    }
+        if (property_exists($attribute) && $attribute == true)
+        {
+            $bonus_points++;
+        }
+        else
+        {
+            //do nothing
+        }
     }
 </code>
             </pre>
@@ -301,23 +301,23 @@
     $candidate = __YOU__;
 
     $things_we_love =
-    [
-    'quick learners',
-    'easy to understand code',
-    'inquisitive minds',
-    'laravel',
-    'laracasts',
-    'docker',
-    "convention followers",
-    'AWS',
-    'experience',
-    'API skills',
-    'sourcetree',
-    'circleCI',
-    'ambition!',
-    'command line',
-    'stackoverflow.com'
-    ];
+        [
+            'quick learners',
+            'easy to understand code',
+            'inquisitive minds',
+            'laravel',
+            'laracasts',
+            'docker',
+            "convention followers",
+            'AWS',
+            'experience',
+            'API skills',
+            'sourcetree',
+            'circleCI',
+            'ambition!',
+            'command line',
+            'stackoverflow.com'
+        ];
 
 </code>
             </pre>
