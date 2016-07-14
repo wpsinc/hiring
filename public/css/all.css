@@ -6424,7 +6424,7 @@ a.bg-danger:focus, a.bg-danger:hover {
 
 #to-top {
   position: fixed !important;
-  bottom: 50px;
+  bottom: 15px;
   right: 50px; }
 
 body {
