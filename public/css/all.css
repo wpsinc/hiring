@@ -6482,6 +6482,9 @@ section.three {
 .color-white {
   color: #fff; }
 
+.bg-white {
+  background: #fff; }
+
 hr {
   border-color: #94F3E4; }
   hr.header {
