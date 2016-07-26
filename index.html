@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="public/css/all.css">
     <script rel="text/javascript" href="public/js/all.js"></script>
 
-    <title>PHP Web Developer Job at WPS</title>
+    <title>Title</title>
 </head>
 <body>
 <section class="bg-dark p-y-3">
@@ -50,7 +50,36 @@
         </div>
     </div>
 </section>
-
+<section class="container-fluid p-y-3 two text-xs-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>If you want a job then take a minute to read this.</h1>
+          <hr class="primary">
+          <h5 class="p-y-2">
+            Look, we have a position open and WE WANT TO HIRE YOU! So make it easy .. please.
+          </h5>
+            <ul>
+              <li class="p-y-1 text-xs-left">
+                SHOW US YOUR WORK. No matter how many times your resume says "I'm good at these things" we won't beleive it till we see it.
+              </li>
+              <li class="p-y-1 text-xs-left">
+                Treat us like WE ARE HUMAN and you are TALKING to us. If all goes well that's what you'll do everyday so you might as well start now.
+              </li>
+              <li class="p-y-1 text-xs-left">
+                Stand out! Please. Take an extra 30 minutes to CUT THE EXTRA FROM YOUR RESUME and really make it shine for this position, trust me, it will help.
+                Make your CV ... *gasp* ORIGINAL. We know it is rather boring, but read the job description, we can tell if you have by your resume, email, cv etc.
+                Golden rule here.. read the job description like you want us to read your resume. No 2 second scan applications please (well you can try but it'll get you a 2 second scan and delete)
+              </li>
+              <li class="p-y-1 text-xs-left">
+                We want someone with: Work ethic, Personality, Skills.. Show us you have these and WE WILL TAKE A LOOK AT YOU!
+              </li>
+            </ul>
+          </h5>
+        </div>
+      </div>
+    </div>
+</section>
 <section class="container-fluid bg-dark p-y-3">
     <div class="row p-t-3">
         <div class="col-lg-12 p-y-3">
@@ -64,16 +93,8 @@
                         <div class="row">
                             <div class="col-lg-8 col-lg-push-2">
                                 <h3 class="color-secondary p-y-1">NORMAL</h3>
-                                <h6 class="color-white">Do you consider these words “fighting words”:
-                                    Non-compliant
-                                    Old standards
-                                    Deprecated
-                                    Superseded by newer standards
-                                    Better alternative exists
-                                    Vulnerable
-                                    Obsolete
-                                    Phased out
-                                    Obsolescent</h6></div>
+                                <h6 class="color-white">You want in, we want out. Well, standout.. standout applicants.
+                                   We are willing to make you a deal, stand out in the right ways and we will get you in</h6></div>
                         </div>
                     </div>
                 </div>
@@ -165,54 +186,54 @@
                     </div>
 			<pre class="line-numbers">
 <code class="language-php">
-/*
-* We think cool stuff is cool.
-* If you can do cool stuff... we want to talk to you
-* We want you to show us what you have got. And to be honest, we don't really care if you have all of everything we ask for or not.
-* (it will definitely help you if you do, but it isn't too big of a deal if you don't have it all)
-* A good sense of humor will help you, it will also entertain whichever one of us interviews you.
-* We want someone who knows what they are doing and can quickly get up to speed. We want someone who is teachable and eager to learn.
-*/
-$candidate = __YOU__;
+    /*
+    * We think cool stuff is cool.
+    * If you can do cool stuff... we want to talk to you
+    * We want you to show us what you have got. And to be honest, we don't really care if you have all of everything we ask for or not.
+    * (it will definitely help you if you do, but it isn't too big of a deal if you don't have it all)
+    * A good sense of humor will help you, it will also entertain whichever one of us interviews you.
+    * We want someone who knows what they are doing and can quickly get up to speed. We want someone who is teachable and eager to learn.
+    */
+    $candidate = __YOU__;
 
-$things_we_love =
-    [
-        'human readable code and variables',
-        'quick learners',
-        'easy to understand code',
-        'inquisitive minds',
-        'laravel',
-        'laracasts',
-        'docker',
-        "convention followers",
-        'AWS',
-        'experience',
-        'API skills',
-        'personality. If we are going to sit with you every day, we do not want to dread coming to work',
-        'sourcetree',
-        'humility/teachability ... it is a must, even with experience. check the marvelous ego at the door',
-        'circleCI',
-        'ambition!',
-        'command line',
-        'sense of humor, no fear of fun, or work',
-        'stackoverflow.com'
-    ];
+    $things_we_love =
+        [
+            'human readable code and variables',
+            'quick learners',
+            'easy to understand code',
+            'inquisitive minds',
+            'laravel',
+            'laracasts',
+            'docker',
+            "convention followers",
+            'AWS',
+            'experience',
+            'API skills',
+            'personality. If we are going to sit with you every day, we do not want to dread coming to work',
+            'sourcetree',
+            'humility/teachability ... it is a must, even with experience. check the marvelous ego at the door',
+            'circleCI',
+            'ambition!',
+            'command line',
+            'sense of humor, no fear of fun, or work',
+            'stackoverflow.com'
+        ];
 
-$bonus_points = 0;
+    $bonus_points = 0;
 
     foreach($things_we_love as $attributes)
     {
         $attribute = $candidate->$attributes;
 
-    if (property_exists($attribute) && $attribute == true)
-    {
-        $bonus_points++;
+        if (property_exists($attribute) && $attribute == true)
+        {
+            $bonus_points++;
+        }
+        else
+        {
+            //do nothing
+        }
     }
-    else
-    {
-        //do nothing
-    }
-}
 </code>
             </pre>
                     <div class="color-white">
@@ -250,36 +271,34 @@ $bonus_points = 0;
                             </div>
 			<pre class=" line-numbers">
 				<code class="language-php">
-$candidate = __YOU__;
+                    $candidate = __YOU__;
 
-$things_we_love =
-    [
-        'quick learners',
-        'easy to understand code',
-        'inquisitive minds',
-        'laravel',
-        'laracasts',
-        'docker',
-        "convention followers",
-        'AWS',
-        'experience',
-        'API skills',
-        'sourcetree',
-        'circleCI',
-        'ambition!',
-        'command line',
-        'stackoverflow.com'
-    ];
-$bonus_points = 0;
-    foreach($things_we_love as $attributes){
-        $att = $candidate->$attributes;
-        if (property_exists($att) && $att){
-            $bonus_points++;
-        }
-        else {
-            //do nothing
-        }
-}
+                    $things_we_love =
+                    [
+                    'quick learners',
+                    'easy to understand code',
+                    'inquisitive minds',
+                    'laravel',
+                    'laracasts',
+                    'docker',
+                    "convention followers",
+                    'AWS',
+                    'experience',
+                    'API skills',
+                    'sourcetree',
+                    'circleCI',
+                    'ambition!',
+                    'command line',
+                    'stackoverflow.com'
+                    ];
+                    $bonus_points = 0;
+                    foreach($things_we_love as $attributes){
+                    $att = $candidate->$attributes;
+                    if (property_exists($att) && $att){
+                    $bonus_points++;
+                    }
+                    else { //do nothing
+                    }}
                 </code>
             </pre>
                             <div class="color-white">
@@ -300,26 +319,26 @@ $bonus_points = 0;
 
 <pre class="">
 <code class="language-php">
-$candidate = __YOU__;
+    $candidate = __YOU__;
 
-$things_we_love =
-    [
-        'quick learners',
-        'easy to understand code',
-        'inquisitive minds',
-        'laravel',
-        'laracasts',
-        'docker',
-        "convention followers",
-        'AWS',
-        'experience',
-        'API skills',
-        'sourcetree',
-        'circleCI',
-        'ambition!',
-        'command line',
-        'stackoverflow.com'
-    ];
+    $things_we_love =
+        [
+            'quick learners',
+            'easy to understand code',
+            'inquisitive minds',
+            'laravel',
+            'laracasts',
+            'docker',
+            "convention followers",
+            'AWS',
+            'experience',
+            'API skills',
+            'sourcetree',
+            'circleCI',
+            'ambition!',
+            'command line',
+            'stackoverflow.com'
+        ];
 
 </code>
             </pre>

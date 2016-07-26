@@ -6459,7 +6459,8 @@ section.one {
     transform: scale(-1, 1); }
 
 section.two {
-  background-color: white; }
+  background-color: white;
+  color: #444; }
 
 section.three {
   background-color: white;
